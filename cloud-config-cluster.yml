@@ -186,7 +186,7 @@ runcmd:
 - mkdir /srv/encoded
 - chown encoded:encoded /srv/encoded
 - cd /srv/encoded
-- sudo -u encoded git clone --no-checkout https://github.com/Parul-Kudtarkar/lung-epigenome.git .
+- sudo -u encoded git clone --no-checkout https://github.com/Lung-Genome-Browser/lung-epigenome.git .
 - sudo -u encoded git checkout %(COMMIT)s
 - mkdir /opt/cloudwatchmon
 - chown build:build /opt/cloudwatchmon

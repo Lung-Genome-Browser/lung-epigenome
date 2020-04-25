@@ -8,7 +8,7 @@ This will launch the elastic search and indexing in cluster mode to accomodate l
 Checkout the code on local machine
 
 ```
-git clone https://github.com/Parul-Kudtarkar/lung-epigenome.git
+git clone https://github.com/Lung-Genome-Browser/lung-epigenome.git
 ```
 
 For production:
@@ -97,7 +97,7 @@ curl localhost:9200/_cluster/health?pretty
 ```
 
 * This retrieves the latest wal backups (during installation process) - required for production
-https://github.com/Parul-Kudtarkar/lung-epigenome/blob/master/t2dream_docs/database-backup-retrievals.md#wal-retrivals
+https://github.com/Lung-Genome-Browser/lung-epigenome/blob/master/t2dream_docs/database-backup-retrievals.md#wal-retrivals
 
 * Initiates indexing
 Once wal backups are retrived indexing to ES datastore initiates 
@@ -106,7 +106,7 @@ Once wal backups are retrived indexing to ES datastore initiates
 1. Create auth0 application (react, application type: single page) 
 2. Add the web url to allowed callback urls, allowed web origins and CORS
 
-![](https://github.com/Parul-Kudtarkar/lung-epigenome/blob/master/t2dream_docs/auth0.png)
+![](https://github.com/Lung-Genome-Browser/lung-epigenome/blob/master/t2dream_docs/auth0.png)
 
 3. Enable AWS add on
 4. Configure and enable connections for GMAIL(google account), Facebook, Twitter etc. so that user can login using these accounts 
@@ -133,7 +133,7 @@ http://ec2-xx-xxx-xxx-xxx.us-west-2.compute.amazonaws.com/_indexer
 * Size down master c5.9xlarge to c5.4xlarge(not recommended though)
 
 * Create base backup from production machine and schdeule corn jobs to backup postgresdb
-https://github.com/Parul-Kudtarkar/lung-epigenome/blob/master/t2dream_docs/database-backup-retrievals.md#wal-backup
+https://github.com/Lung-Genome-Browser/lung-epigenome/blob/master/t2dream_docs/database-backup-retrievals.md#wal-backup
 
 Finally online!
 

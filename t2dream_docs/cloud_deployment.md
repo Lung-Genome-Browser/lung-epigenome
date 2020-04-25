@@ -1,6 +1,6 @@
 ## Workflow to deploy database on cloud
 
-git clone https://github.com/Parul-Kudtarkar/lung-epigenome.git
+git clone https://github.com/Lung-Genome-Browser/lung-epigenome.git
 
 
 **Deploy to AWS instance:**
@@ -8,7 +8,7 @@ git clone https://github.com/Parul-Kudtarkar/lung-epigenome.git
 Checkout the code
 
 ```
-git clone https://github.com/Parul-Kudtarkar/lung-epigenome.git
+git clone https://github.com/Lung-Genome-Browser/lung-epigenome.git
 ```
 
 For production:
@@ -47,4 +47,4 @@ Going to the URL http://ec2-xx-xxx-xxx-xxx.us-west-2.compute.amazonaws.com shoul
 
 **Loading data from Wal-Backup**
 
-Refer to [Wal-retrival document](https://github.com/Parul-Kudtarkar/lung-epigenome/blob/master/t2dream_docs/database-backup-retrievals.md) to load either LATEST backedup data or roll back to previous backup versions.
+Refer to [Wal-retrival document](https://github.com/Lung-Genome-Browser/lung-epigenome/blob/master/t2dream_docs/database-backup-retrievals.md) to load either LATEST backedup data or roll back to previous backup versions.

@@ -29,6 +29,6 @@ tar -zxf ssl.tgz --directory /etc/nginx/ssl
 openssl dhparam 2048 -out /etc/nginx/ssl/dhparam.pem
 chmod 600 /etc/nginx/ssl/dhparam.pem
 
-curl -o /etc/nginx/nginx.conf https://raw.githubusercontent.com/Parul-Kudtarkar/lung-epigenome/master/encode-proxy-nginx.conf
+curl -o /etc/nginx/nginx.conf https://raw.githubusercontent.com/Lung-Genome-Browser/lung-epigenome/master/encode-proxy-nginx.conf
 
 service nginx restart

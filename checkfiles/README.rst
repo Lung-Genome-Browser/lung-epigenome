@@ -21,4 +21,4 @@ Deploy
 
 Supply arguments for checkfiles after a ``--`` separator::
 
-    bin/python deploy.py -- --username ACCESS_KEY_ID --password SECRET_ACCESS_KEY --bot-token SLACK-BOT-TOKEN https://github.com/Parul-Kudtarkar/lung-epigenome.git
+    bin/python deploy.py -- --username ACCESS_KEY_ID --password SECRET_ACCESS_KEY --bot-token SLACK-BOT-TOKEN https://github.com/Lung-Genome-Browser/lung-epigenome.git
